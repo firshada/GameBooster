@@ -136,7 +136,7 @@
                 </div>
             </div>
             <div class="card d-flex justify-content-center" style="width: 230px;">
-                <img src="{{ URL('image/serv7.png') }}" class="card-img-top" alt="...">
+                <img src="image/serv7.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title d-flex justify-content-center">Game Name</h5>
                 </div>

@@ -26,7 +26,7 @@
           <ul class="navbar-nav ms-3">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                All
+                Service
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Jockey</a>
@@ -40,7 +40,7 @@
               </a>
             </li>
             <li class="nav-item" style="width: 100px;">
-              <a class="nav-link d-flex align-items-center" href="#!">Contact Us</a>
+              <a class="nav-link d-flex align-items-center" href="#!">Log In</a>
             </li>
             <!--  -->
             <!-- <button class="btn dropdown-toggle shadow-0 bg-transparent" type="button" data-mdb-toggle="dropdown"

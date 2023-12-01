@@ -21,6 +21,16 @@ Route::get('/home', function () {
     return view('landingpage');
 });
 
-Route::get('/service', function () {
-    return view('landingpage');
+Route::get('/news', function () {
+    return view('news');
+});
+
+
+Route::get('/signin', function () {
+    return view('signin');
+});
+
+
+Route::get('/signup', function () {
+    return view('signup');
 });
