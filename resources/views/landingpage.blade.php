@@ -1,6 +1,5 @@
 @extends('layouts.main')
 
-
 @section('container')
     <!-- Carousel -->
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
