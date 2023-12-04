@@ -24,7 +24,7 @@
         </form>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-3">
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Service
               </a>
@@ -33,8 +33,13 @@
                 <a class="dropdown-item" href="#">Top up</a>
                 <div class="dropdown-divider"></div>
               </div>
+            </li> -->
+            <li class="nav-item" style="width: 100px;">
+              <a class="nav-link d-flex align-items-center" href="#!">
+                Top Up
+              </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" style="width: 100px;">
               <a class="nav-link d-flex align-items-center me-3" href="#!">
                 <i class="fas fa-bookmark pe-2"></i> News
               </a>
