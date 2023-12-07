@@ -14,15 +14,13 @@ return new class extends Migration
     public function up()
     {
         Schema::create('topups', function (Blueprint $table) {
-            $table->id('topup_id');
+            $table->id();
             $table->integer('nominal');
             $table->integer('price');
-            $table->foreignId('game_id')->constrained(
-                table: 'games', indexName: 'game_id'
-            );
-            $table->foreignId('topup_cat_id')->constrained(
-                table: 'topup_categories', indexName: 'topup_cat_id'
-            );
+            
+            $table->foreignId('game_id')->constrained();
+            $table->foreignId('topup_category_id')->constrained();
+
             $table->timestamps();
         });
     }

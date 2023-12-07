@@ -25,10 +25,10 @@ class DatabaseSeeder extends Seeder
             NewsSeeder::class,
             GameSeeder::class,
             PaymentMethodSeeder::class,
-            GameSeeder::class,
-            GameSeeder::class,
-            GameSeeder::class,
-            GameSeeder::class,
+            TopupCategorySeeder::class,
+            TopupSeeder::class,
+            TransactionSeeder::class,
+            UserSeeder::class,
         ]);
     }
 }
