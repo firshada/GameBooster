@@ -3,7 +3,7 @@
     <!-- Container wrapper -->
     <div class="container">
       <!-- Navbar brand -->
-      <a class="navbar-brand" href="#"><img id="MDB-logo"
+      <a class="navbar-brand" href="/"><img id="MDB-logo"
           src="images/gb.png" alt="Game Booster"
           draggable="false" height="30" style="scale: 250%; margin-right: 40px"/></a>
   
@@ -35,17 +35,17 @@
               </div>
             </li> -->
             <li class="nav-item" style="width: 100px;">
-              <a class="nav-link d-flex align-items-center" href="#!">
-                Top Up
+              <a class="nav-link d-flex align-items-center" href="/">
+                Home
               </a>
             </li>
             <li class="nav-item" style="width: 100px;">
-              <a class="nav-link d-flex align-items-center me-3" href="#!">
+              <a class="nav-link d-flex align-items-center me-3" href="/news">
                 <i class="fas fa-bookmark pe-2"></i> News
               </a>
             </li>
             <li class="nav-item" style="width: 100px;">
-              <a class="nav-link d-flex align-items-center" href="#!">Log In</a>
+              <a class="nav-link d-flex align-items-center" href="/signin">Log In</a>
             </li>
             <!--  -->
             <!-- <button class="btn dropdown-toggle shadow-0 bg-transparent" type="button" data-mdb-toggle="dropdown"

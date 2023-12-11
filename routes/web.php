@@ -1,6 +1,15 @@
 <?php
 
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\NewsController;
 use Illuminate\Support\Facades\Route;
+use App\models\game;
+use App\Models\News;
+use App\Models\payment_method;
+use App\Models\topup_category;
+use App\Models\topup;
+use App\Models\Transaction;
+use App\Models\User;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,21 +22,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomeController::class, 'index']);
 
-Route::get('/home', function () {
-    return view('landingpage');
-});
+// Route::get('/home', function () {
+//     return view('landingpage');
+// });
 
-Route::get('/news', function () {
-    return view('news');
-});
+Route::get('/news', [NewsController::class, 'index']);
+// Route::get('/news', function () {
+//     return view('news');
+// });
 
 
 Route::get('/signin', function () {
     return view('signin');
+});
+
+Route::get('/checkout', function () {
+    return view('checkout');
 });
 
 

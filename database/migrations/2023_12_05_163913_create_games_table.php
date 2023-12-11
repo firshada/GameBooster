@@ -16,6 +16,8 @@ return new class extends Migration
         Schema::create('games', function (Blueprint $table) {
             $table->id();
             $table->string('game_name');
+            $table->string('game_image');
+            $table->string('developer');
             $table->timestamps();
         });
     }
