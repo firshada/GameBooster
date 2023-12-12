@@ -1,4 +1,9 @@
 <!-- Remove the container if you want to extend the Footer to full width. -->
+
+
+
+
+
 <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
 <symbol id="bootstrap" viewBox="0 0 118 94">
   <title>Bootstrap</title>
@@ -15,101 +20,18 @@
 </symbol>
 </svg>
 
-<div class="">
-<footer class="d-flex flex-wrap justify-content-between align-items-center p-3 my-4 border-top" style="background-color: #0B9BB4">
-  <div class="col-md-4 d-flex align-items-center">
-    {{-- <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" 
-        src="images/gb.png" alt="Game Booster"
-        draggable="false" height="30" style="scale: 250%; margin-right: 40px">
-      <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
-    </a> --}}
-    <a class="navbar-brand" href="/"><img id="MDB-logo"
-      src="images/gb.png" alt="Game Booster"
-      draggable="false" height="30" style="scale: 150%;"/>
+
+<footer class="footer footer-expand-lg d-flex justify-content-between align-items-center p-3 my-4 border-top" style="background-color: #0B9BB4; width: 100%;">
+  <div class="d-flex align-items-center">
+    <a class="navbar-brand" href="/">
+      <img id="MDB-logo" src="images/gb.png" alt="Game Booster" draggable="false" height="30" style="transform: scale(1.5);">
     </a>
-    <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Company, Inc</span>
+    <span class="ms-3 mb-3 mb-md-0 text-body-secondary">&copy; 2023 GameBooster</span>
   </div>
 
-  <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+  <ul class="nav list-unstyled d-flex">
     <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
     <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
     <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
   </ul>
 </footer>
-</div>
-
-{{-- <div class="my-5 navbar-expand-lg">
-
-  <footer class="text-center navbar-expand-lg text-white" style="background-color: #0B9BB4;">
-    <!-- Grid container -->
-    <div class="container pt-4">
-      <!-- Section: Social media -->
-      <section class="mb-4">
-        <!-- Facebook -->
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
-  
-        <!-- Twitter -->
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
-          ><i class="fab fa-twitter"></i
-        ></a>
-  
-        <!-- Google -->
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
-          ><i class="fab fa-google"></i
-        ></a>
-  
-        <!-- Instagram -->
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
-          ><i class="fab fa-instagram"></i
-        ></a>
-  
-        <!-- Linkedin -->
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
-          ><i class="fab fa-linkedin"></i
-        ></a>
-        <!-- Github -->
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
-          ><i class="fab fa-github"></i
-        ></a>
-      </section>
-      <!-- Section: Social media -->
-    </div>
-    <!-- Grid container -->
-  
-    <!-- Copyright -->
-    <div class="text-center text-dark p-3" style="background-color: #0B9BB4;">
-      © 2023 Copyright |
-      <a class="text-dark" href="#">Game Booster.com</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-    
-</div> --}}
-  <!-- End of .container -->
-

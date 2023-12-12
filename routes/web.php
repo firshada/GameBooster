@@ -24,15 +24,7 @@ use App\Models\User;
 
 Route::get('/', [HomeController::class, 'index']);
 
-// Route::get('/home', function () {
-//     return view('landingpage');
-// });
-
 Route::get('/news', [NewsController::class, 'index']);
-// Route::get('/news', function () {
-//     return view('news');
-// });
-
 
 Route::get('/signin', function () {
     return view('signin');
@@ -41,7 +33,6 @@ Route::get('/signin', function () {
 Route::get('/checkout', function () {
     return view('checkout');
 });
-
 
 Route::get('/signup', function () {
     return view('signup');

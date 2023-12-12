@@ -1,5 +1,27 @@
-.content{
-    background-color: #E3E2DD
+
+
+.content {
+  background-color: #E3E2DD;
+  min-height: 100vh; 
+  width: 100%; 
+  position: relative;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+body, html {
+  height: 100%;
+}
+
+
+.navbar {
+  margin-bottom: 0; /* Atur margin bottom navbar ke 0 */
+}
+
+.footer {
+  margin-top: 0; /* Atur margin top footer ke 0 */
 }
 
 
@@ -80,3 +102,6 @@
   .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
   }
+
+
+

@@ -1,6 +1,8 @@
 @extends('layouts.main')
 
+
 @section('container')
+<div class="container mt-4">
     <!-- Carousel -->
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
         <!-- Indicators/dots -->
@@ -70,7 +72,7 @@
         </div>
 
     <!-- News -->
-    <div class="news pt-4">
+    <div class="container-fluid row gx-5">
         <h2>News</h2>
         <p class="pb-3">Hot news about new games and update</p>
         
@@ -94,5 +96,5 @@
             @endforeach
         </div>
     </div>
-
+</div>
 @endsection

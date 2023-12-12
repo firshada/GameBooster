@@ -2,8 +2,8 @@
 
 
 @section('container')
-</head>
-<body>
+<div class="container mt-4">
+
     <div class="card text-bg-dark">
       <img src="images/caro1.jpg" class="card-img" alt="...">
       <div class="card-img-overlay align-items-center" style="align-items: center">
@@ -132,5 +132,5 @@
     <script async src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script></body>
 </html>
 
-
+</div>
 @endsection
