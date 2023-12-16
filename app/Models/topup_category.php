@@ -11,6 +11,6 @@ class topup_category extends Model
 
     public function topups()
     {
-        return $this->hasMany(topup::class);
+        return $this->hasMany(Transaction::class);
     }
 }

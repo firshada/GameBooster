@@ -17,9 +17,10 @@ return new class extends Migration
             $table->id();
             $table->date('date');
 
-            // $table->foreignId('user_id')->constrained();
+            $table->foreignId('user_id')->constrained();
             $table->foreignId('payment_method_id')->constrained();            
             $table->foreignId('topup_id')->constrained();
+            $table->foreignId('topup_category_id')->constrained();
 
             $table->timestamps();
         });

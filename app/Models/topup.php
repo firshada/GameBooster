@@ -18,9 +18,4 @@ class topup extends Model
     {
         return $this->belongsTo(game::class);
     }
-
-    public function topup_category()
-    {
-        return $this->belongsTo(topup_category::class);
-    }
 }

@@ -18,10 +18,4 @@ class NewsController extends Controller
             "news" => News::all()
         ]);
     }
-
-    // // public function detail(Movie $id){
-    // //     // $movies = Movie::all();
-
-    // //     return view('detail', ['movies'=>$id]);
-    // }
 }

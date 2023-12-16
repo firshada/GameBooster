@@ -3,68 +3,61 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\User;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Validation\ValidationException;
+use App\Http\Controllers\Input;
 
 class UserController extends Controller
 {
-    /**
-     * Show the form for creating the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
+    public function register()
     {
-        abort(404);
+        return view('signup');
     }
 
-    /**
-     * Store the newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
+    public function registerPost(Request $request)
     {
-        abort(404);
+        $user = new User();
+ 
+        $user->name = $request->name;
+        $user->username = $request->username;        
+        $user->phone = $request->phone;
+        $user->email = $request->email;
+        $user->password = Hash::make($request->password);
+ 
+        $user->save();
+ 
+        return redirect()->route('login')->with('success', 'Register successfully');
+        // return back()->with('success', 'Register successfully');
     }
-
-    /**
-     * Display the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function show()
+ 
+    public function login()
     {
-        //
+        return view('login');
     }
-
-    /**
-     * Show the form for editing the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function edit()
+ 
+    public function loginPost(Request $request)
     {
-        //
+        $credetials = [
+            'email' => $request->email,
+            'password' => $request->password,
+        ];
+ 
+        if (Auth::attempt($credetials)) {
+            return redirect('/')->with('success', 'Login Success');
+        }
+ 
+        return back()->with('error', 'Error Email or Password');
     }
-
-    /**
-     * Update the resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request)
+ 
+    public function logout()
     {
-        //
+        Auth::logout();
+        return redirect('/');
     }
-
-    /**
-     * Remove the resource from storage.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy()
-    {
-        abort(404);
-    }
+    
+    
 }

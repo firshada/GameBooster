@@ -55,7 +55,6 @@
     </div>
 
     <!-- Service -->
-    <a href="/topup" class="text-black" style="text-decoration: none;">
     <div class="services col">
         <h2 class="pt-4">Our Services</h2>
         <p>Enjoy Our Services</p>
@@ -71,11 +70,8 @@
             </div>
             @endforeach
         </div>
-    </div>
-    </a>
 
     <!-- News -->
-    <a href="/news" class="text-black" style="text-decoration: none;">
     <div class="news col">
         <h2 class="pt-4">News</h2>
         <p class="pb-3">Hot news about new games and update</p>
@@ -100,6 +96,5 @@
             @endforeach
         </div>
     </div>
-    </a>
 </div>
 @endsection

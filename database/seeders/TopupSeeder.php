@@ -17,22 +17,54 @@ class TopupSeeder extends Seeder
     {
         $datas = [
             [
-                'nominal' => '500',
-                'price' => '12000',
+                'nominal' => '36',
+                'price' => '10.000',
                 'game_id' => 1,
-                'topup_category_id' => 1
+            ],
+            [
+                'nominal' => '44',
+                'price' => '12.000',
+                'game_id' => 1,
+            ],
+            [
+                'nominal' => '46',
+                'price' => '13.000',
+                'game_id' => 1,
+            ],
+            [
+                'nominal' => '59',
+                'price' => '16.000',
+                'game_id' => 1,
+            ],
+            [
+                'nominal' => '74',
+                'price' => '20.000',
+                'game_id' => 1,
+            ],
+            [
+                'nominal' => '85',
+                'price' => '23.000',
+                'game_id' => 1,
+            ],
+            [
+                'nominal' => '110',
+                'price' => '30.000',
+                'game_id' => 1,
+            ],
+            [
+                'nominal' => '148',
+                'price' => '40.000',
+                'game_id' => 1,
             ],
             [
                 'nominal' => '500',
                 'price' => '12000',
                 'game_id' => 2,
-                'topup_category_id' => 2
             ],
             [
                 'nominal' => '500',
                 'price' => '12000',
                 'game_id' => 3,
-                'topup_category_id' => 3
             ],
             
         ];

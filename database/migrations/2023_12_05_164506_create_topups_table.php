@@ -19,7 +19,6 @@ return new class extends Migration
             $table->integer('price');
             
             $table->foreignId('game_id')->constrained();
-            $table->foreignId('topup_category_id')->constrained();
 
             $table->timestamps();
         });

@@ -11,7 +11,7 @@ class HomeController extends Controller
     public function index(){
 
         return view('landingpage', [
-            "games" => game::all(),
+            "games" => game::take(8)->get(),
             "top_games" => game::take(3)->get(),
             "news" => News::take(2)->get(),
         ]);

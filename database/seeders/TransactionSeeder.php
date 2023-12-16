@@ -19,21 +19,24 @@ class TransactionSeeder extends Seeder
         $datas = [
             [
                 'date' => '2023-12-7',
-                // 'user_id' => 1,
+                'user_id' => 1,
                 'payment_method_id' => 1,
-                'topup_id' => 1
+                'topup_id' => 1,
+                'topup_category_id' => 1
             ],
             [
                 'date' => '2023-12-7',
-                // 'user_id' => 2,
+                'user_id' => 2,
                 'payment_method_id' => 2,
-                'topup_id' => 2
+                'topup_id' => 2,
+                'topup_category_id' => 2
             ],
             [
                 'date' => '2023-12-7',              
-                // 'user_id' => 3,
+                'user_id' => 3,
                 'payment_method_id' => 3,
-                'topup_id' => 3
+                'topup_id' => 3,
+                'topup_category_id' => 3
             ],
         ];
 

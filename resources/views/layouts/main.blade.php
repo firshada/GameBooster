@@ -9,10 +9,11 @@
   </head>
   <body>
     <div class="content">
-      
-        @include('partials.navbar')
-      
-      
+      @if(!auth()->check())
+          @include('partials.navbar')
+      @else
+          @include('partials.navbar2')
+      @endif
 
       <div >
         @yield('container')
