@@ -1,5 +1,7 @@
 
-
+html {
+  scroll-behavior: smooth;
+}
 .content {
   background-color: #E3E2DD;
   min-height: 100vh; 
@@ -75,7 +77,6 @@ body, html {
     overflow-x: auto;
     text-align: center;
     white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
   }
 
   .btn-bd-primary {
@@ -105,9 +106,7 @@ body, html {
 
 
 
-  .form-control-dark {
-    /* border-color: var(--bs-gray); */
-  }
+  
   .form-control-dark:focus {
     border-color: #fff;
     /* box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25); */

@@ -13,19 +13,24 @@ class TopupController extends Controller
     //
     public function index(){
 
-        $data = [
-            // "games" => game::all(),
+        $data = ([
+            'games' => game::all(),
             "topupCategories" => topup_category::all(),
             "nominals" => topup::all(), // Ganti sesuai model dan nama tabel nominal
             "paymentMethods" => payment_method::all(),
-        ];
+        ]);
 
-        return view('topup', $data);
+        return view('topup', compact('data'));
     }
 
     public function showGameDetail($id){
-        $game = game::findOrFail($id);
-        return view('checkout', compact('game'));
+        $data = ([
+            'games' => game::where('id',$id)->get(),
+            "topupCategories" => topup_category::all(),
+            "nominals" => topup::all(), // Ganti sesuai model dan nama tabel nominal
+            "paymentMethods" => payment_method::all(),
+        ]);
+        return view('checkout', compact('data'));
     }
 
     public function checkout()

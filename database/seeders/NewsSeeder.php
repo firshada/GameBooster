@@ -22,6 +22,25 @@ class NewsSeeder extends Seeder
                 'description' => 'Immerse yourself in an unprecedented gaming experience as reality and fantasy collide in this groundbreaking augmented reality (AR) title. 
                 Witness the real world morph into a dynamic playground as the game seamlessly integrates with your surroundings, offering an unparalleled level of 
                 interactivity and immersion.',
+                'longDescription' => "<p>Immerse yourself in an unprecedented gaming experience as reality and fantasy collide in this groundbreaking augmented reality (AR) title. 
+                Witness the real world morph into a dynamic playground as the game seamlessly integrates with your surroundings, offering an unparalleled level of 
+                interactivity and immersion. Immerse yourself in an unprecedented gaming experience as reality and fantasy collide in this groundbreaking augmented reality (AR) title. 
+                Witness the real world morph into a dynamic playground as the game seamlessly integrates with your surroundings, offering an unparalleled level of 
+                interactivity and immersion. Immerse yourself in an unprecedented gaming experience as reality and fantasy collide in this groundbreaking augmented reality (AR) title. 
+                Witness the real world morph into a dynamic playground as the game seamlessly integrates with your surroundings, offering an unparalleled level of 
+                interactivity and immersion. Immerse yourself in an unprecedented gaming experience as reality and fantasy collide in this groundbreaking augmented reality (AR) title. 
+                Witness the real world morph into a dynamic playground as the game seamlessly integrates with your surroundings, offering an unparalleled level of 
+                interactivity and immersion.</p>
+
+                <p>Immerse yourself in an unprecedented gaming experience as reality and fantasy collide in this groundbreaking augmented reality (AR) title. 
+                Witness the real world morph into a dynamic playground as the game seamlessly integrates with your surroundings, offering an unparalleled level of 
+                interactivity and immersion. Immerse yourself in an unprecedented gaming experience as reality and fantasy collide in this groundbreaking augmented reality (AR) title. 
+                Witness the real world morph into a dynamic playground as the game seamlessly integrates with your surroundings, offering an unparalleled level of 
+                interactivity and immersion. Immerse yourself in an unprecedented gaming experience as reality and fantasy collide in this groundbreaking augmented reality (AR) title. 
+                Witness the real world morph into a dynamic playground as the game seamlessly integrates with your surroundings, offering an unparalleled level of 
+                interactivity and immersion. Immerse yourself in an unprecedented gaming experience as reality and fantasy collide in this groundbreaking augmented reality (AR) title. 
+                Witness the real world morph into a dynamic playground as the game seamlessly integrates with your surroundings, offering an unparalleled level of 
+                interactivity and immersion.</p>",
                 'date' => '2023-12-04',
                 'photo' => 'news1.jpg'
             ],
@@ -29,6 +48,14 @@ class NewsSeeder extends Seeder
                 'title' => 'Console Wars Intensify: Exclusive Titles Fuel Fierce Competition Between Giants',
                 'description' => 'A small indie studio defies expectations with their latest release, introducing innovative gameplay mechanics that have taken the gaming 
                 community by storm. Dive into a world where creativity knows no bounds, as this surprise hit redefines the way we approach and experience gaming.',
+                'longDescription' => '<p>A small indie studio defies expectations with their latest release, introducing innovative gameplay mechanics that have taken the gaming 
+                community by storm. Dive into a world where creativity knows no bounds, as this surprise hit redefines the way we approach and experience gaming.A small indie studio defies expectations with their latest release, introducing innovative gameplay mechanics that have taken the gaming 
+                community by storm. Dive into a world where creativity knows no bounds, as this surprise hit redefines the way we approach and experience gaming.</p>
+
+                <p>A small indie studio defies expectations with their latest release, introducing innovative gameplay mechanics that have taken the gaming 
+                community by storm. Dive into a world where creativity knows no bounds, as this surprise hit redefines the way we approach and experience gaming.A small indie studio defies expectations with their latest release, introducing innovative gameplay mechanics that have taken the gaming 
+                community by storm. Dive into a world where creativity knows no bounds, as this surprise hit redefines the way we approach and experience gaming.A small indie studio defies expectations with their latest release, introducing innovative gameplay mechanics that have taken the gaming 
+                community by storm. Dive into a world where creativity knows no bounds, as this surprise hit redefines the way we approach and experience gaming.</p>',
                 'date' => '2021-12-04',
                 'photo' => 'news2.jpg'
             ],
@@ -37,6 +64,19 @@ class NewsSeeder extends Seeder
                 'description' => 'Embark on a cosmic journey like never before in the highly-anticipated sequel to the Space Odyssey series. Immerse yourself in a 
                 breathtaking universe filled with unexplored planets, epic space battles, and a narrative that promises endless possibilities. Get ready to redefine the 
                 boundaries of space exploration.',
+                'longDescription' => '<p>Embark on a cosmic journey like never before in the highly-anticipated sequel to the Space Odyssey series. Immerse yourself in a 
+                breathtaking universe filled with unexplored planets, epic space battles, and a narrative that promises endless possibilities. Get ready to redefine the 
+                boundaries of space exploration.Embark on a cosmic journey like never before in the highly-anticipated sequel to the Space Odyssey series. Immerse yourself in a 
+                breathtaking universe filled with unexplored planets, epic space battles, and a narrative that promises endless possibilities. Get ready to redefine the 
+                boundaries of space exploration.Embark on a cosmic journey like never before in the highly-anticipated sequel to the Space Odyssey series. Immerse yourself in a 
+                breathtaking universe filled with unexplored planets, epic space battles, and a narrative that promises endless possibilities. Get ready to redefine the 
+                boundaries of space exploration.</p>
+                
+                <p>Embark on a cosmic journey like never before in the highly-anticipated sequel to the Space Odyssey series. Immerse yourself in a 
+                breathtaking universe filled with unexplored planets, epic space battles, and a narrative that promises endless possibilities. Get ready to redefine the 
+                boundaries of space exploration.Embark on a cosmic journey like never before in the highly-anticipated sequel to the Space Odyssey series. Immerse yourself in a 
+                breathtaking universe filled with unexplored planets, epic space battles, and a narrative that promises endless possibilities. Get ready to redefine the 
+                boundaries of space exploration.</p>',
                 'date' => '2023-12-04',
                 'photo' => 'news3.jpg'
             ],
@@ -45,6 +85,19 @@ class NewsSeeder extends Seeder
                 'description' => 'The battle between gaming consoles reaches new heights as exclusive titles become the weapons of choice. Witness the fierce competition 
                 unfold as industry giants vie for dominance, each armed with a lineup of exclusive games that push the boundaries of whats possible on their respective 
                 platforms.',
+                'longDescription' => '<p>The battle between gaming consoles reaches new heights as exclusive titles become the weapons of choice. Witness the fierce competition 
+                unfold as industry giants vie for dominance, each armed with a lineup of exclusive games that push the boundaries of whats possible on their respective 
+                platforms.The battle between gaming consoles reaches new heights as exclusive titles become the weapons of choice. Witness the fierce competition 
+                unfold as industry giants vie for dominance, each armed with a lineup of exclusive games that push the boundaries of whats possible on their respective 
+                platforms.</p>
+                
+                <p>The battle between gaming consoles reaches new heights as exclusive titles become the weapons of choice. Witness the fierce competition 
+                unfold as industry giants vie for dominance, each armed with a lineup of exclusive games that push the boundaries of whats possible on their respective 
+                platforms.The battle between gaming consoles reaches new heights as exclusive titles become the weapons of choice. Witness the fierce competition 
+                unfold as industry giants vie for dominance, each armed with a lineup of exclusive games that push the boundaries of whats possible on their respective 
+                platforms.The battle between gaming consoles reaches new heights as exclusive titles become the weapons of choice. Witness the fierce competition 
+                unfold as industry giants vie for dominance, each armed with a lineup of exclusive games that push the boundaries of whats possible on their respective 
+                platforms.</p>',
                 'date' => '2023-12-04',
                 'photo' => 'news4.jpg'
             ],
@@ -53,6 +106,19 @@ class NewsSeeder extends Seeder
                 'description' => 'Brace yourself for the ultimate virtual showdown as a new eSports title emerges, captivating players and spectators alike. With intense 
                 competition, cutting-edge graphics, and a spectator experience like never before, this game is set to redefine the landscape of competitive gaming. Prepare 
                 for an adrenaline-fueled journey into the heart of virtual competition.',
+                'longDescription' => '<p>Brace yourself for the ultimate virtual showdown as a new eSports title emerges, captivating players and spectators alike. With intense 
+                competition, cutting-edge graphics, and a spectator experience like never before, this game is set to redefine the landscape of competitive gaming. Prepare 
+                for an adrenaline-fueled journey into the heart of virtual competition. Brace yourself for the ultimate virtual showdown as a new eSports title emerges, captivating players and spectators alike. With intense 
+                competition, cutting-edge graphics, and a spectator experience like never before, this game is set to redefine the landscape of competitive gaming. Prepare 
+                for an adrenaline-fueled journey into the heart of virtual competition. Brace yourself for the ultimate virtual showdown as a new eSports title emerges, captivating players and spectators alike. With intense 
+                competition, cutting-edge graphics, and a spectator experience like never before, this game is set to redefine the landscape of competitive gaming. Prepare 
+                for an adrenaline-fueled journey into the heart of virtual competition.<p>
+                
+                <p>Brace yourself for the ultimate virtual showdown as a new eSports title emerges, captivating players and spectators alike. With intense 
+                competition, cutting-edge graphics, and a spectator experience like never before, this game is set to redefine the landscape of competitive gaming. Prepare 
+                for an adrenaline-fueled journey into the heart of virtual competition. Brace yourself for the ultimate virtual showdown as a new eSports title emerges, captivating players and spectators alike. With intense 
+                competition, cutting-edge graphics, and a spectator experience like never before, this game is set to redefine the landscape of competitive gaming. Prepare 
+                for an adrenaline-fueled journey into the heart of virtual competition.</p>',
                 'date' => '2023-12-04',
                 'photo' => 'news5.jpg'
             ],

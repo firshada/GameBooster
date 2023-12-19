@@ -11,7 +11,7 @@
         <p class="card-text"></p>
         <p class="card-text"><small></small></p>
       </div>
-      </div>
+    </div>
 
       <!-- News -->
     <div class="news pt-4">
@@ -20,7 +20,7 @@
       
       <div class="container row gx-5">
         @foreach ($news as $n)
-          <div class="col-md-6 mb-4">
+          <div class="col-md-6 mb-4" data-aos="fade-right" data-aos-offset="300" data-aos-duration="800">
               <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
               <img src="{{ asset('images/'.$n->photo) }}" class="img-fluid" />
               <a href="#!">
@@ -29,11 +29,12 @@
               </div>
           </div>
 
-          <div class="col-md-6 mb-4">
+          <div class="col-md-6 mb-4" data-aos="fade-left" data-aos-offset="300" data-aos-duration="800" data-aos-delay="500">
               <span class="badge bg-danger px-2 py-1 shadow-1-strong mb-3">{{ $n->date }}</span>
               <h4><strong>{{ $n->title }}</strong></h4>
               <p class="text-muted">{{ $n->description }}</p>
-              <button type="button" class="btn btn-primary ">Read more</button>
+              <a href="{{ route('news.detail', $n->id) }}" class="btn btn-primary">Read more</a>
+              <!-- <button type="button" class="btn btn-primary ">Read more</button> -->
           </div>
         @endforeach
       </div>

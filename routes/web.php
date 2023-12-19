@@ -22,18 +22,26 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index']);
 
-Route::get('/news', [NewsController::class, 'index']);
 
-// Route::get('/checkout', function () {
-//     return view('checkout');
+// Route::get('/detailnews', function (){
+//     return view('detailnews');
 // });
 
+// Route::get('/success', [NewsController::class, 'index']);
+
+// Route::get('/success', function () {
+//         return view('success');
+// });
+
+Route::get('/news', [NewsController::class, 'index'])->name('news');
+Route::get('/news/{id}', [NewsController::class, 'showDetail'])->name('news.detail');
 
 Route::group(['middleware' => 'guest'], function () {
     Route::get('/signup', [UserController::class, 'register'])->name('register');
     Route::post('/signup', [UserController::class, 'registerPost'])->name('register');
     Route::get('/login', [UserController::class, 'login'])->name('login');
     Route::post('/login', [UserController::class, 'loginPost'])->name('login');
+
 });
 
 Route::group(['middleware' => 'auth'], function () {
@@ -41,6 +49,5 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/topup/{id}', [TopupController::class, 'showGameDetail'])->name('game.detail');
     Route::post('/process-topup', [TransactionController::class, 'processTopup'])->name('process.topup');
     Route::delete('/logout', [UserController::class, 'logout'])->name('logout');
+    // Route::get('/success', [TransactionController::class, 'success'])->name('success');
 });
-
-// Route::get('/topup', [TopupController::class, 'index']);
